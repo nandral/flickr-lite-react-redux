@@ -29,7 +29,6 @@ npm start
 * `react-router` for client-side routing
 * `react-saga` for handling redux app side effects
 * `JQuery` for calling [Flickr's JSONP API](https://api.flickr.com/services/feeds/photos_public.gne?format=json)
-* `lodash` javaScript library which provides utility functions for common programming tasks
 * `react-modal` accessible modal dialog component for React
 
 
