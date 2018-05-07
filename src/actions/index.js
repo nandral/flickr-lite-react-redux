@@ -2,7 +2,6 @@ import { takeLatest, call, put } from 'redux-saga/effects';
 import * as Actions from './types';
 import jquery from 'jquery';
 window.$ = window.jQuery = jquery;
-require('jquery-slimscroll');
 
 
 
@@ -16,7 +15,7 @@ export function* watcherSaga() {
 // function that makes the api request and returns a Promise for response
 function searchTag(payload) {
   console.log('searchTag ::', payload);
-  return $.getJSON(URL, {
+  return window.$.getJSON(URL, {
     tags: payload,
     format: 'json'
   }).then(data => data);
