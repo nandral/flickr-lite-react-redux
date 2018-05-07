@@ -2,7 +2,7 @@
 
 ### flickr lite is developed using technologies like React, Redux, CSS3, HTML5, JavaScript, ES6/7.
 
-##### [Demo](https://flickr-lite.herokuapp.com/)
+##### [Demo](https://flickr-lite.herokuapp.com/) on Heroku
 
 ##### [Flickr's JSONP API](https://api.flickr.com/services/feeds/photos_public.gne?format=json) is used to search images
 
