@@ -2,6 +2,9 @@ import { takeLatest, call, put } from 'redux-saga/effects';
 import * as Actions from './types';
 import jquery from 'jquery';
 window.$ = window.jQuery = jquery;
+require('jquery-slimscroll');
+
+
 
 const URL = 'https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?';
 
